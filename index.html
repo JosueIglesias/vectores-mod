@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vectores</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Title -->
+
+    <h1>Ejemplos con Vectores</h1>
+
+    <!-- Example 01-->
+    <div class="container dark">
+      <div class="left border">
+        <!-- Actualizar título -->
+        <h2>Ejemplo 01</h2>
+        <!-- Actualizar descripción -->
+        <p>
+          Declaración de vectores
+        </p>
+        <form class="center" onsubmit="return false">
+          <!-- Actualizar id -->
+          <input
+            type="button"
+            value="Iniciar"
+            class="column"
+            id="btnEjemplo01"
+          />
+        </form>
+      </div>
+      <div class="right">
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Indice</th>
+              <th>Contenido</th>
+            </tr>
+          </thead>
+          <!-- Actualizar id -->
+          <tbody id="tabla01"></tbody>
+        </table>
+      </div>
+    </div>
+    <!-- End Example 01-->
+    
+    <!-- Example 02-->
+    <div class="container">
+      <div class="left border-dark">
+        <!-- Actualizar título -->
+        <h2>Ejemplo 02</h2>
+        <!-- Actualizar descripción -->
+        <p>
+          Llamado de vectores utilizando ciclos
+        </p>
+        <form class="center" onsubmit="return false">
+          <!-- Actualizar id -->
+          <input
+            type="button"
+            value="Iniciar"
+            class="column"
+            id="btnEjemplo02"
+          />
+        </form>
+      </div>
+      <div class="right">
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Indice</th>
+              <th>Contenido</th>
+            </tr>
+          </thead>
+          <!-- Actualizar id -->
+          <tbody id="tabla02"></tbody>
+        </table>
+      </div>
+    </div>
+    <!-- End Example 02-->
+    <!-- Example 03-->
+    <div class="container dark">
+      <div class="left border-dark">
+        <!-- Actualizar título -->
+        <h2>Ejemplo 03</h2>
+        <!-- Actualizar descripción -->
+        <p>
+          Leer y mostrar un vector de N elementos
+        </p>
+        <form class="center" onsubmit="return false">
+          <label for="numero03">¿Cuantos numeros?</label>
+          <input type="number" name="" id="numero03">
+          <!-- Actualizar id -->
+          <input
+            type="button"
+            value="Iniciar"
+            class="column"
+            id="btnEjemplo03"
+          />
+        </form>
+      </div>
+      <div class="right">
+        <table align="center">
+          <thead>
+            <tr>
+              <th>Indice</th>
+              <th>Contenido</th>
+            </tr>
+          </thead>
+          <!-- Actualizar id -->
+          <tbody id="tabla03"></tbody>
+        </table>
+      </div>
+    </div>
+    <!-- End Example 03-->
+      <!-- Example 04-->
+      <div class="container">
+        <div class="left border-dark">
+          <!-- Actualizar título -->
+          <h2>Ejemplo 04</h2>
+          <!-- Actualizar descripción -->
+          <p>
+            Generar N numeros aleatorios entre 100 y 200, y los numeros pares se van a guardar en un vector, y los numeros impares en otro.
+          </p>
+          <p>
+            en la tabla de la izquierda se mostrarán los pares y en la derecha los impares
+          </p>
+          <p>
+            El valor de N máximo puede ser 15
+          </p>
+          <form class="center" onsubmit="return false">
+            <label for="numero04">¿Cuantos numeros?</label>
+            <input type="number" name="" id="numero04">
+            <!-- Actualizar id -->
+            <input
+              type="button"
+              value="Iniciar"
+              class="column"
+              id="btnEjemplo04"
+            />
+          </form>
+        </div>
+        <div class="right">
+          <div class="right">
+              <table align="center">
+                  <thead>
+                    <tr>
+                      <th>Indice</th>
+                      <th>Contenido</th>
+                    </tr>
+                  </thead>
+                  <!-- Actualizar id -->
+                  <tbody id="tabla04A"></tbody>
+                </table>
+          </div>
+          <div class="left">
+              <table align="center">
+                  <thead>
+                    <tr>
+                      <th>Indice</th>
+                      <th>Contenido</th>
+                    </tr>
+                  </thead>
+                  <!-- Actualizar id -->
+                  <tbody id="tabla04B"></tbody>
+                </table>
+          </div>
+        </div>
+      </div>
+      <!-- End Example 04-->
+    <script src="main.js"></script>
+  </body>
+</html>

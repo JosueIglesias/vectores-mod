@@ -1,0 +1,127 @@
+
+/*------------------------------------
+  Default Theme
+  Fonts: Raleway & Open Sans
+  Colors:
+    Green:    #71a95a
+    Grey:           #212226
+    Light Grey:    #f8f8f8
+    White:          #fff
+    Black:          #000
+*/
+
+/*------------------------------------
+ *  Html, Body
+ */
+
+ body {
+    color: #212226;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  h1,
+  h2
+  {
+  
+    color: #71a95a;
+    text-align: center;
+  }
+  
+  label, p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  input {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px auto 10px auto;
+    font-size: 13px;
+    color:#212226;
+    background-color:  #f8f8f8;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #212226;
+    text-align: center;
+  
+  }
+  
+  input[type=button] {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px auto;
+    font-size: 13px;
+    color:#fff;
+    background-color: #212226;
+    width: 200px;
+    height: 40px;
+    border-radius: 28px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  input[type=button]:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+  
+  input[type=button]:active {
+    cursor: pointer;
+    background-color:#71a95a;
+    box-shadow: none;
+  }
+  
+  input:focus {
+    outline:0;
+  }
+  
+  table {
+    border-spacing: 0;
+  }
+  
+  
+  th, td {
+    padding: 10px 10px;
+    border-bottom: 1px solid #212226;;
+  }
+  /*------------------------------------
+   *  Container
+   */
+  
+   .container {
+     height: 500px;
+     padding:5px;
+   }
+  
+   .dark {
+     background-color: #f8f8f8
+   }
+  
+   .left {
+     width: 50%;
+     float: left;
+     height: 100%;
+   }
+  
+   .right {
+     width: 49%;
+     float: right;
+     height: 100%;
+  }
+  
+  .border {
+    border-right: 2px solid   #fff;
+  }
+  
+  .border-dark {
+    border-right: 2px solid  #f8f8f8
+  }
+  
+  .center {
+    text-align: center;
+  }
